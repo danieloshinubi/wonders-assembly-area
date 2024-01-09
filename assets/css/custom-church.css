@@ -39,24 +39,24 @@ h4 {
 }
 
 .carousel-img-1 {
-    background: url("../WondersPictures/daddypastordedication.jpg") center center no-repeat;
+    background: url("/assets/WondersPictures/daddypastordedication.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .carousel-img-2 {
     /*no "center center" no-repeat based on the particuar picture (4.jpg)"*/
-    background: url("../WondersPictures/pic2.jpg") no-repeat;
+    background: url("/assets/WondersPictures/pic2.jpg") no-repeat;
     background-size: cover;
 }
 
 .carousel-img-3 {
     /*no "center center" no-repeat based on the particuar picture (4.jpg)"*/
-    background: url("../WondersPictures/choirministration.jpg") no-repeat;
+    background: url("/assets/WondersPictures/choirministration.jpg") no-repeat;
     background-size: cover;
 }
 
 .carousel-img-4 {
-    background: url("../WondersPictures/fourthslide.jpg") center center no-repeat;
+    background: url("/assets/WondersPictures/fourthslide.jpg") center center no-repeat;
     background-size: cover;
 }
 
