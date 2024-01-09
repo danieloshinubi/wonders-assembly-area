@@ -1,0 +1,98 @@
+/* AUTHOR: AKINOLA DANIEL OSHINUBI 
+
+	DATE: JANUARY, 2024
+
+	CUSTOM STYLESHEET */
+
+@font-face {
+    font-family: soft;
+    src: url(/assets/WondersPictures/Summer\ Concert.otf);
+}
+
+body {
+    background-color: #eee;
+    font-family: soft;
+    font-size: x-large;
+}
+
+.featurette-heading {
+    align-items: center;
+}
+
+.marketing h1 {
+    text-decoration: underline;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.indexparagraph {
+    text-align: center;
+    font-size: x-large;
+}
+
+.marketing h2 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.carousel-img-1 {
+    background: url("/assets/WondersPictures/daddypastordedication.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.carousel-img-2 {
+    /*no "center center" no-repeat based on the particuar picture (4.jpg)"*/
+    background: url("/assets/WondersPictures/pic2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.carousel-img-3 {
+    /*no "center center" no-repeat based on the particuar picture (4.jpg)"*/
+    background: url("/assets/WondersPictures/choirministration.jpg") no-repeat;
+    background-size: cover;
+}
+
+.carousel-img-4 {
+    background: url("/assets/WondersPictures/fourthslide.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img-square {
+    /*border: 2px solid maroon;*/
+    padding: 12px;
+}
+
+.googlemap {
+    width: 350px;
+    height: 400px;
+}
+
+.grey-background {
+    background-color: grey;
+}
+
+.padding {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel-img-2 {
+        /*no "center center" no-repeat based on the particuar picture (4.jpg)"*/
+        background: url("../WondersPictures/pic2.jpg") center center no-repeat;
+        background-size: cover;
+    }
+    .googlemap {
+        width: 250px;
+        height: 250px;
+    }
+}
