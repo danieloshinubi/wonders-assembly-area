@@ -1,2 +1,1 @@
-# RCCGHOP
-*Informational Church Website*
+
